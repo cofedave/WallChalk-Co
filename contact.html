@@ -80,7 +80,7 @@
 
                 <div>
                     <span>Email</span>
-                    <a href="mailto:hello@wallchalkco.com">
+                    <a href="mailto:wallchalkco@gmail.com">
                         wallchalkco@gmail.com
                     </a>
                 </div>
@@ -88,16 +88,22 @@
 
                 <div>
                     <span>WhatsApp (chat with us)</span>
-                    <a href="#">
+                    <a href="https://wa.me/233595942235?text=Hi%20WallChalk!%20I%20want%20to%20start%20a%20project">
                         +233 595942235
                     </a>
                 </div>
 
 
                 <div>
-                    <span>Social, all platforms</span>
-                    <a href="#">
-                        @wallchalkco
+                    <span>Click to follow us!</span>
+                    <a href="https://www.facebook.com/wallchalkco">
+                        FACEBOOK
+                    </a>
+                    <a href="https://www.Instagram.com/wallchalkco">
+                        INSTAGRAM
+                    </a>
+                    <a href="https://www.Tiktok.com/wallchalkco">
+                        TIKTOK
                     </a>
                 </div>
 
@@ -106,159 +112,64 @@
         </div>
 
 
-        <form class="contact-form">
+       <form class="contact-form" action="https://formspree.io/f/mqpqaqwa" method="POST">
 
-            <div class="form-group">
+    <div class="form-group">
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="type your name here" required>
+    </div>
 
-                <label for="name">
-                    Your name
-                </label>
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="dave@example.com" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="where are you?">
+    </div>
 
-                <input
-                    type="text"
-                    id="name"
-                    placeholder="type your name here"
-                >
+    <div class="form-group">
+        <label for="contact">Contact</label>
+        <input type="tel" id="contact" name="phone" placeholder="a contact we can text or call">
+    </div>
 
-            </div>
+    <div class="form-group">
+        <label for="service">What do you need?</label>
+        <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option>Branding</option>
+            <option>Flyer / Graphics</option>
+            <option>Video</option>
+            <option>Website</option>
+            <option>Something else</option>
+        </select>
+    </div>
 
+    <div class="form-group">
+        <label for="budget">Estimated budget</label>
+        <select id="budget" name="budget">
+            <option value="">Select a range</option>
+            <option>Under GHS 500</option>
+            <option>GHS 500 – 1,000</option>
+            <option>GHS 1,000 – 3,000</option>
+            <option>GHS 3,000 – 5,000</option>
+            <option>GHS 5,000+</option>
+        </select>
+    </div>
 
-            <div class="form-group">
+    <div class="form-group">
+        <label for="message">Tell us about the project</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tell us about your idea, project, timeline and what you need..."></textarea>
+    </div>
 
-                <label for="email">
-                    Email address
-                </label>
+    <input type="hidden" name="_next" value="https://www.wallchalkco.com/thankyou.html">
 
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="dave@example.com"
-                >
+    <button type="submit" class="button primary">
+        Send Project Brief →
+    </button>
 
-            </div>
-            
-            <div class="form-group">
-
-                <label for="location">
-                    Location
-                </label>
-
-                <input type="text"
-                    type="location"
-                    placeholder="where are you?"
-                >
-
-            </div>
-
-            <div class="form-group">
-
-                <label for="contact">
-                    Contact
-                </label>
-
-                <input type="tel"
-                    type="tel"
-                    name="phone"
-                    placeholder="a contact we can text or call"
-                >
-                
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="service">
-                    What do you need?
-                </label>
-
-                <select id="service">
-
-                    <option value="">
-                        Select a service
-                    </option>
-
-                    <option>
-                        Branding
-                    </option>
-
-                    <option>
-                        Flyer / Graphics
-                    </option>
-
-                    <option>
-                        Video
-                    </option>
-
-                    <option>
-                        Website
-                    </option>
-
-                    <option>
-                        Something else
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="budget">
-                    Estimated budget
-                </label>
-
-                <select id="budget">
-
-                    <option value="">
-                        Select a range
-                    </option>
-
-                    <option>
-                        Under GHS 500
-                    </option>
-
-                    <option>
-                        GHS 500 – 1,000
-                    </option>
-
-                    <option>
-                        GHS 1,000 – 3,000
-                    </option>
-
-                    <option>
-                        GHS 3,000 – 5,000
-                    </option>
-
-                    <option>
-                        GHS 5,000+
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="message">
-                    Tell us about the project
-                </label>
-
-                <textarea
-                    id="message"
-                    rows="6"
-                    placeholder="Tell us about your idea, project, timeline and what you need..."
-                ></textarea>
-
-            </div>
-
-
-            <button type="submit" class="button primary">
-                Send Project Brief →
-            </button>
-
-        </form>
+</form>
 
     </section>
 
