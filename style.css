@@ -1056,6 +1056,95 @@ h3 {
 
 }
 
+.pricing-section-bundle {
+
+    max-width: var(--max-width);
+
+    margin: auto;
+
+    padding: 100px 5vw;
+
+    border-top: 1px solid var(--border);
+
+    
+}
+
+
+.price-grid-bundle {
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: #000089;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+}
+
+.price-card-bundle {
+
+    padding: 45px;
+
+    min-height: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    transition: transform 0.4s ease, background 0.4s ease, color 0.4s ease;
+
+    background-color: rgb(197, 234, 255);
+
+    border-radius: 20px;
+
+}
+
+.price-card-bundle:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.price-label-bundle {
+
+    font-size: 0.7rem;
+
+    letter-spacing: 0.15em;
+
+    font-weight: 700;
+}
+
+.price-card-bundle p {
+    color: #666;
+
+    margin-top: 25px;
+
+    max-width: 400px;
+
+}
+
+.price-card-bundle h3 {
+    font-size: 4rem;
+
+    margin-top: 60px;
+}
+
+.price-card-bundle a {
+
+    margin-top: auto;
+
+    color: var(--blue);
+
+    font-weight: 700;
+
+    font-size: 0.8rem;
+}
+
+
+
 
 /* =====================================================
    CONTACT
@@ -1657,6 +1746,47 @@ textarea {
 
 }
 
+/* =====================================================
+   THANK YOU PAGE
+===================================================== */
+
+.thank-container {
+    display: flex;
+    justify-content: center;
+}
+
+.thanku {
+    padding: 70px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.thanku h2 {
+    color: #000089
+}
+
+.thanku h3 {
+    font-weight: lighter;
+}
+
+.thanku a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: ease-in;
+    transition-duration: 2s;
+}
+
+.thanku a:hover {
+    background-color: blue;
+    color: white;
+    transition-duration: 1s;
+}
+
+
 /* ADDITIVES */
 .build {
     color:#000089;
@@ -1668,3 +1798,14 @@ textarea {
     font-family: wallchalk typeface;
     
 }
+
+.contact-details a:hover {
+
+    color: blue;
+
+}
+
+.hero-description a {
+    color: #000089;
+}
+
